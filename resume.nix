@@ -4,14 +4,13 @@
   basics = {
     name = "Terje Larsen";
     label = "Senior Software Engineer";
+    image = "./photo.png";
     email = "terlar@gmail.com";
     url = "https://terlar.github.io";
     summary = ''
-      Programming and problem solving is one of my great passions in life, if I am presented with a problem I will eagerly put my full focus on the problem until a solution is reached.
+      Results-driven Senior Software Engineer with 15+ years of software development experience, including expertise with developing large-scale microservice ecosystems, data structures, algorithms and functional programming. Over the past 8 years, I've focused on enhancing developer velocity through tools and automation.
 
-      I have 15+ years of professional experience developing large scale microservice ecosystems with the past 8 years shifting focus towards the DevOps movement and enabling engineers to be more productive.
-
-      Most recently I have used Nix, Golang, Python and TypeScript, however I don't see a problem with developing in any other language, the motto is: use the best tool available.
+      Proficient in Nix, Golang, Python, TypeScript, Ruby and Java, with additional exposure to Elixir, Rust, Clojure and Haskell outside of professional contexts.
     '';
     location = {
       city = "Stockholm";
@@ -42,10 +41,11 @@
       startDate = "2023-05";
       summary = "";
       highlights = [
-        "Prepared for cloud move by providing a multi-tenant Kubernetes platform using Google Kubernetes Engine Enterprise. This includes IaC via Terraform using Terraservices pattern and generating CI/CD pipelines in GitLab."
+        "Lead the peparation for cloud migration by implementing a multi-tenant Kubernetes platform using Google Kubernetes Engine Enterprise."
+        "Apply Infrastucture as Code (IaC) principles through Terraform, following the Terraservices pattern, and generate CI/CD pipelines in GitLab."
         "Work with the OpenShift Kubernetes on-prem solution, write custom CRDs and handle logs via Vector."
-        "Participate in a workgroup trying to get Linux developer machines."
-        "Generate custom WSL images using NixOS to aid developers with their development tooling needs."
+        "Collaborate on integrating Linux developer machines."
+        "Develop custom WSL images using NixOS to enhance developer tooling and streamline the development process."
       ];
     }
 
@@ -59,18 +59,18 @@
       endDate = "2023-05";
       summary = "";
       highlights = [
-        "Build the next generation infrastructure delivery system for the company."
-        "Implement and scale a CI/CD pipeline to support deployments for a mono-repo of 100+ services (across multiple regions/environments). Reducing time to delivery by 60%."
-        "Create tooling and infrastructure and improve the user experience of a mono-repo platform."
-        "Teach, document and provide expertise for developers of a mono-repo platform."
-        "Implement a service definition system for reproducible builds/deployments (Nix/Terraform)."
-        "Reduce technical debt and deprecate outdated solutions."
-        "Automate developer machine/environment setup (Nix)."
-        "Implement partial branch deployments (only deploy what has changed since you created your branch)"
-        "Implement dry-run of staging/production deploy on branches to discover permission/policy issues ahead of deploy."
-        "Develop a backend for a communications portal using event-driven and serverless technologies. (AWS Lambda/API GW/DynamoDB Streams/TypeScript)"
-        "Implement granular testing strategy at all levels."
-        "Implement infrastructure as code and CI/CD (Terraform/Jenkins)"
+        "Spearheaded the creation of a next-generation infrastructure delivery system demonstrating leadership and forward-thinking in technology adoption."
+        "Implemented and scaled a CI/CD pipeline for a mono-repo of 100+ services, significantly reducing time to delivery."
+        "Created tooling and infrastructure and improve the user experience of a mono-repo platform."
+        "Provided expertise and documentation for developers on a mono-repo platform, showcasing leadership and coaching abilities."
+        "Implemented a service definition system for reproducible builds/deployments using Nix and Terraform."
+        "Reduced technical debt and deprecate outdated solutions."
+        "Automated developer machine/environment setup using Nix."
+        "Implemented partial branch deployments (only deploy what has changed since you created your branch)"
+        "Implemented dry-run of staging/production deploy on branches to discover permission/policy issues ahead of deploy."
+        "Engineered the backend for a communication portal utilizing event-driven and serverless technologies, leveraging AWS Lambda, API Gateway, DynamoDB Streams, and TypeScript to ensure seamless and scalable operations."
+        "Implemented granular testing strategy at all levels."
+        "Implemented infrastructure as code and CI/CD using Terraform and Jenkins."
       ];
     }
 
@@ -85,10 +85,9 @@
       summary = ''
       '';
       highlights = [
-        "Migrate services into Docker containers."
-        "Set up CI/CD for services and optimize developer tools and workflow."
-        "Migrate and write new services (Ruby, TypeScript)."
-        "Implement monitoring and alerting."
+        "Led the migration of services into Docker containers, showcasing adaptability to modern technologies."
+        "Set up CI/CD for services, optimized developer tools, and workflows."
+        "Migrated and developed services in Ruby and TypeScript, demonstrating a diverse skill set."
       ];
     }
 
@@ -103,13 +102,13 @@
       summary = ''
       '';
       highlights = [
-        "Setup alerting and monitoring system."
-        "Maintain and improve the CI-pipeline."
-        "Build a proxy/router for service discovery and load balancing."
-        "Infrastucture management through AWS CloudFormation."
-        "Setup automated backup solutions to AWS S3."
-        "Configuration management with Ansible."
-        "Setup fluentd log pipeline (EFK)."
+        "Implemented alerting and monitoring systems, ensuring the reliability and performance of services."
+        "Maintained and improved the CI pipeline, contributing to a streamlined development process."
+        "Developed a proxy/router for service discovery and load balancing, enhancing system efficiency."
+        "Managed infrastructure through AWS CloudFormation, ensuring a robust and scalable environment."
+        "Set up automated backup solutions to AWS S3, prioritizing data security."
+        "Utilized Ansible for configuration management."
+        "Established a fluentd log pipeline (EFK), contributing to effective log management."
       ];
     }
 
@@ -121,22 +120,17 @@
       url = "https://saltside.se";
       startDate = "2011-11";
       endDate = "2017-03";
-      summary = ''
-      '';
       highlights = [
-        "Site reliability engineering."
-        "Daily work with containers, continuous delivery and automated testing."
-        "Create tools and utilities that makes the work more efficient."
-        "Running a distributed system across four markets with millions of users."
-        "Deploy service to orchestrate different deploys from various clients (Slack, CLI, Web)."
-        "Configuration management with Ansible.- Site reliability engineering. - Daily work with containers, continuous delivery and automated testing. - Create tools and utilities that makes the work more efficient. - Running a distributed system across four markets with millions of users. - Deploy service to orchestrate different deploys from various clients (Slack, CLI, Web). - Configuration management with Ansible."
-        "Main contributor of the core API and backend services."
-        "Designed and implemented API:s both using JSON and Thrift."
-        "Worked in a small team to rewrite the system to a service oriented architecture."
-        "Lead developer for the mobile web application."
-        "Lead developer for the backend platform and API."
-        "Extracted the mobile web application from the monolith increasing the ability to deliver new features."
-        "Worked in a small team to deliver a monolithic classifieds site."
+        "Engaged in site reliability engineering, focusing on continuous delivery and automated testing."
+        "Developed tools and utilities to enhance operational efficiency."
+        "Orchestrated the deployment of a distributed system across four markets with millions of users."
+        "Implemented a service to coordinate different deploys using various clients (Slack, CLI, Web)."
+        "Led the design and implementation of core API and backend services."
+        "Designed and implemented APIs using JSON and Thrift."
+        "Contributed to the rewriting of the system into a service-oriented architecture."
+        "Served as the lead developer for the mobile web application and backend platform/API."
+        "Successfully extracted the mobile web application from a monolith, improving feature delivery capability."
+        "Collaborated in a small team to deliver a monolithic classifieds site."
       ];
     }
 
@@ -148,14 +142,13 @@
       url = "https://webbhuset.se";
       startDate = "2009-10";
       endDate = "2011-11";
-      summary = ''
-        Started as a Software Engineer and when getting a hang of the ropes coached several new hires as well as driving the techincal solutions. Worked with various e-commerce adaptations for company customers.
-        Lead developer of Magento-Navision bridge.
-      '';
       highlights = [
-        "Developed modules for the e-commerce system Magento."
-        "Built bridges between Magento and several ERP-systems (such as Navision)."
-        "Worked with markup and CSS."
+        "Started as a Software Engineer, later taking on coaching responsibilities for new hires."
+        "Worked on various e-commerce adaptations for company customers."
+        "Led the development of the Magento-Navision bridge."
+        "Developed modules for the Magento e-commerce system."
+        "Built bridges between Magento and several ERP systems."
+        "Contributed to markup and CSS work."
       ];
     }
 
@@ -167,32 +160,25 @@
       url = "https://argonova.se";
       startDate = "2007-06";
       endDate = "2009-10";
-      summary = ''
-        Lead developer of the e-commerce platform and content management system. Also utilized this platform to deliver customized websites to 10+ customers including all parts of full-stack development.
-      '';
       highlights = [
-        "Developed an e-commerce platform which superseded the previous."
-        "Developed several iterations of content management systems."
-        "Created tools and workflow to optimize our development process."
-        "Advocated web-standards and guidelines for accessibility."
-        "Created a CSS-framework that we used to create sites quicker."
+        "Led the development of the e-commerce platform and content management system."
+        "Developed iterations of content management systems."
+        "Created tools and workflows to optimize the development process."
+        "Advocated for web standards and accessibility guidelines."
+        "Developed a CSS framework to expedite site creation."
       ];
     }
 
     {
       name = "Firma Terje Larsen";
       location = "Gothenburg";
-      description = "Self-employed";
-      position = "Full-stack Developer";
+      position = "Self-employed";
       startDate = "2010-06";
       endDate = "2015-04";
-      summary = ''
-        Developed various web-software on request during my free-time.
-      '';
       highlights = [
-        "Developing modules and adjusting templates to increase sales in a web shop built with Magento."
-        "Full-stack development of simpler company websites."
-        "Customization and feature development for WordPress."
+        "Contributed to the development of modules and templates for a Magento web shop."
+        "Engaged in full-stack development of simpler company websites."
+        "Customized and developed features for WordPress."
       ];
     }
   ];
@@ -250,24 +236,61 @@
       keywords = [
         "Buildkite"
         "GitHub Actions"
-        "GitLab"
+        "GitLab CI/CD"
         "Jenkins"
+        "Spacelift"
       ];
     }
     {
       name = "Infrastructure as Code";
       level = "Master";
       keywords = [
+        "Ansible"
+        "CloudFormation"
         "Nix"
         "Terraform"
+        "Terraservices"
       ];
     }
     {
-      name = "Cloud Platforms";
+      name = "Containers";
       level = "Master";
       keywords = [
-        "Amazon Web Services"
-        "Google Cloud Platform"
+        "Docker"
+      ];
+    }
+    {
+      name = "Kubernetes";
+      level = "Intermediate";
+      keywords = [
+        "GKEE"
+        "Helm"
+        "OpenShift"
+      ];
+    }
+    {
+      name = "Google Cloud Platform";
+      level = "Intermediate";
+      keywords = [
+        "Cloud IAM"
+        "Cloud Logging"
+        "Cloud Storage"
+        "Kubernetes Engine Enterprise"
+      ];
+    }
+    {
+      name = "Amazon Web Services";
+      level = "Master";
+      keywords = [
+        "API GateWay"
+        "Aurora"
+        "CloudWatch"
+        "DynamoDB"
+        "IAM"
+        "Lambda"
+        "QLDB"
+        "S3"
+        "SQS/SNS"
       ];
     }
     {
@@ -300,19 +323,25 @@
 
   interests = [
     {
-      name = "Free software";
+      name = "Artificial Intelligence";
+    }
+    {
+      name = "Software Automation and Tools";
       keywords = [
-        "Linux"
-        "NixOS"
         "Emacs"
+        "Linux"
+        "Nix"
+        "NixOS"
       ];
     }
     {
       name = "Health and fitness";
       keywords = [
-        "Meditation"
-        "Hiking"
         "Cycling"
+        "Family activities"
+        "Hiking"
+        "Meditation"
+        "Team sports"
       ];
     }
   ];
