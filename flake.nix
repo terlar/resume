@@ -2,8 +2,15 @@
   description = "Terje's personal jsonresume";
 
   inputs = {
-    jsonresume-nix.url = "github:TaserudConsulting/jsonresume-nix";
-    dev-flake.url = "github:terlar/dev-flake";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    jsonresume-nix = {
+      url = "github:TaserudConsulting/jsonresume-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    dev-flake = {
+      url = "github:terlar/dev-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
