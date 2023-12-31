@@ -255,6 +255,22 @@
       ];
     }
     {
+      name = "Infrastructure as Code";
+      level = "Master";
+      keywords = [
+        "Nix"
+        "Terraform"
+      ];
+    }
+    {
+      name = "Cloud Platforms";
+      level = "Master";
+      keywords = [
+        "Amazon Web Services"
+        "Google Cloud Platform"
+      ];
+    }
+    {
       name = "Operating systems";
       level = "Master";
       keywords = [
