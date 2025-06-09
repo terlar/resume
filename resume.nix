@@ -42,7 +42,10 @@
       summary = "";
       highlights = [
         "Lead the peparation for cloud migration by implementing a multi-tenant Kubernetes platform using Google Kubernetes Engine Enterprise."
-        "Apply Infrastucture as Code (IaC) principles through Terraform, following the Terraservices pattern, and generate CI/CD pipelines in GitLab."
+        "Apply Infrastucture as Code (IaC) principles through Terraform, following the Terraservices pattern, and generate CI/CD pipelines in GitLab and GitHub (Nix)."
+        "Production release automation, orchestrated with GitLab/JIRA/Vertex AI and Teams Power Automate."
+        "CI/CD tooling developed with Golang."
+        "Fully automated dependency updates using Renovate and bot accounts."
         "Work with the OpenShift Kubernetes on-prem solution, write custom CRDs and handle logs via Vector."
         "Collaborate on integrating Linux developer machines."
         "Develop custom WSL images using NixOS to enhance developer tooling and streamline the development process."
@@ -60,7 +63,7 @@
       summary = "";
       highlights = [
         "Spearheaded the creation of a next-generation infrastructure delivery system demonstrating leadership and forward-thinking in technology adoption."
-        "Implemented and scaled a CI/CD pipeline for a mono-repo of 100+ services, significantly reducing time to delivery."
+        "Implemented and scaled a CI/CD pipeline for a mono-repo of 100+ services, reducing time to delivery by 60%."
         "Created tooling and infrastructure and improve the user experience of a mono-repo platform."
         "Provided expertise and documentation for developers on a mono-repo platform, showcasing leadership and coaching abilities."
         "Implemented a service definition system for reproducible builds/deployments using Nix and Terraform."
