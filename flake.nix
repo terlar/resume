@@ -10,7 +10,7 @@
     };
 
     systems.url = "github:nix-systems/default";
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
 
     jsonresume = {
       url = "github:TaserudConsulting/jsonresume-nix";
@@ -29,6 +29,7 @@
       perSystem = {
         lib,
         config,
+        system,
         pkgs,
         inputs',
         ...
@@ -48,20 +49,12 @@
           '';
         };
 
-        apps = {
-          live = {
-            type = "app";
-            program = builtins.toString (pkgs.writeShellScript "entr-reload" ''
-              ${config.packages.builder}
-
-              ${lib.getExe pkgs.nodePackages.live-server} \
-                --watch=resume.html --open=resume.html --wait=300 &
-
-              printf "\n%s" resume.{toml,nix,json} |
-                ${lib.getExe pkgs.xe} -s 'test -f "$1" && echo "$1"' |
-                ${lib.getExe pkgs.entr} -p ${config.packages.builder}
-            '');
-          };
+        apps.live = {
+          type = "app";
+          program = lib.pipe config.packages.builder [
+            inputs.jsonresume.lib.${system}.buildLiveServer
+            lib.getExe
+          ];
         };
       };
     };
