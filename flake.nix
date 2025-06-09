@@ -40,7 +40,7 @@
 
           default = pkgs.runCommand "resume" {} ''
             ln -s ${./resume.nix} resume.nix
-            HOME=$(mktemp -d) ${config.packages.builder}
+            HOME=$(mktemp -d) ${lib.getExe config.packages.builder}
             mkdir $out
             cp -v resume.html $out/index.html
             # Copy other resources such as images here...
