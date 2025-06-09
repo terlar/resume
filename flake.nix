@@ -5,6 +5,7 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
     dev-flake = {
       url = "github:terlar/dev-flake";
+      inputs.flake-parts.follows = "flake-parts";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
