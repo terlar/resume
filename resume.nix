@@ -273,10 +273,12 @@
     }
     {
       name = "Google Cloud Platform";
-      level = "Intermediate";
+      level = "Master";
       keywords = [
         "Cloud IAM"
         "Cloud Logging"
+        "Cloud SQL"
+        "Cloud Spanner"
         "Cloud Storage"
         "Kubernetes Engine Enterprise"
       ];
