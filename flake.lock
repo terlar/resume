@@ -13,11 +13,11 @@
         "treefmt": "treefmt"
       },
       "locked": {
-        "lastModified": 1768335814,
-        "narHash": "sha256-9UIuSFVPFvOH2BeJpJHt/JDnU/4wkKDRQ2srwQSfy18=",
+        "lastModified": 1768816563,
+        "narHash": "sha256-WknY/ACQ1bDy/gdJVrRKeOsgOzUfTUzzr7KEfORWEio=",
         "owner": "terlar",
         "repo": "dev-flake",
-        "rev": "81efe924d622d6508a1567ee0303cf011e856bea",
+        "rev": "1a1b50d648d28976b96199d9db30bac3ff1172bc",
         "type": "github"
       },
       "original": {
