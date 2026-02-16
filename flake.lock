@@ -13,11 +13,11 @@
         "treefmt": "treefmt"
       },
       "locked": {
-        "lastModified": 1770108050,
-        "narHash": "sha256-vpBls9R4L+NquBKCPdmvYdq1bz+LYuOE2x+tGsRAqM4=",
+        "lastModified": 1770733624,
+        "narHash": "sha256-EXphXbUOkupBZyhTUIqGuStstRor/wAyKhED0Kb3Exw=",
         "owner": "terlar",
         "repo": "dev-flake",
-        "rev": "6336d7181ad9a35e6f9a0a5b8ae484931c5d5873",
+        "rev": "8a7984f887e3da4260f311c5de509e8d3b3feb59",
         "type": "github"
       },
       "original": {
@@ -151,11 +151,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1767286627,
-        "narHash": "sha256-NWVf4Xo5vcfXEm5ssUhLYC3IGM04rqrnovUz/OtQbgM=",
+        "lastModified": 1771053337,
+        "narHash": "sha256-LvZdX0NgTU3BFqtaQF8th6SqZ/H20XGnziFo97zXNIo=",
         "owner": "TaserudConsulting",
         "repo": "jsonresume-nix",
-        "rev": "7136c08cebdeb3eee783248bde20f848b4bdd77d",
+        "rev": "5bd70a3c01eccc1ffa811aed4066a154e86da5d1",
         "type": "github"
       },
       "original": {
@@ -242,11 +242,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1769691507,
-        "narHash": "sha256-8aAYwyVzSSwIhP2glDhw/G0i5+wOrren3v6WmxkVonM=",
+        "lastModified": 1770228511,
+        "narHash": "sha256-wQ6NJSuFqAEmIg2VMnLdCnUc0b7vslUohqqGGD+Fyxk=",
         "owner": "numtide",
         "repo": "treefmt-nix",
-        "rev": "28b19c5844cc6e2257801d43f2772a4b4c050a1b",
+        "rev": "337a4fe074be1042a35086f15481d763b8ddc0e7",
         "type": "github"
       },
       "original": {
