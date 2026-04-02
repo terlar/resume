@@ -85,8 +85,7 @@
       url = "https://www.mirado.com";
       startDate = "2018-02";
       endDate = "2019-01";
-      summary = ''
-      '';
+      summary = "";
       highlights = [
         "Led the migration of services into Docker containers, showcasing adaptability to modern technologies."
         "Set up CI/CD for services, optimized developer tools, and workflows."
@@ -102,8 +101,7 @@
       url = "https://www.speedledger.se";
       startDate = "2017-03";
       endDate = "2018-02";
-      summary = ''
-      '';
+      summary = "";
       highlights = [
         "Implemented alerting and monitoring systems, ensuring the reliability and performance of services."
         "Maintained and improved the CI pipeline, contributing to a streamlined development process."
